@@ -51,7 +51,7 @@ export default function Home() {
           <div className='hidden lg:flex lg:flex-1 lg:justify-end'>
             <a
               href='#'
-              className='text-sm font-semibold leading-6 text-gray-900'>
+              className='bg-slate-900 text-sm font-semibold leading-6 px-4 py-2 text-white rounded-md'>
               Log in <span aria-hidden='true'>&rarr;</span>
             </a>
           </div>
@@ -114,13 +114,13 @@ export default function Home() {
                 Your go-to bookstore for fantasy and mystery
               </h1>
               <p className='mt-6 text-lg leading-8 text-gray-600'>
-                Bookbuddy is a small bookstore that specializes in fantasy and mystery
-                books. Find us here in San Diego or order online anytime.
+                BookBuddyPro is a small bookstore that specializes in fantasy and mystery
+                books. Discover us in Bangalore or order online anytime.
               </p>
               <div className='mt-10 flex items-center justify-center gap-x-6'>
                 <a
                   href='#'
-                  className='rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600'>
+                  className='rounded-md bg-slate-900 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-slate-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600'>
                   Explore books
                 </a>
                 <a
@@ -133,7 +133,7 @@ export default function Home() {
             <div className='mt-16 flow-root sm:mt-24'>
               <div className='relative -m-2 rounded-xl bg-gray-900/5 p-2 ring-1 ring-inset ring-gray-900/10 lg:-m-4 lg:rounded-2xl lg:p-4'>
                 <img
-                  src='/bookstore2.jpg'
+                  src='/images/images.jpg'
                   alt='App screenshot'
                   className='rounded-md shadow-2xl ring-1 ring-gray-900/10'
                 />
