@@ -46,3 +46,7 @@ body {
 .scrollbar-thumb-rounded::-webkit-scrollbar-thumb {
   border-radius: 0.25rem;
 }
+
+.bg-header{
+  background-color: #efefef;
+}
