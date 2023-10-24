@@ -46,7 +46,7 @@ export default function Home() {
               <a
                 key={item.name}
                 href={item.href}
-                className='text-sm font-semibold leading-6 text-gray-900'>
+                className='text-sm font-semibold leading-6 text-gray-900 hover:bg-pink-500 hover:text-white p-1 px-3 rounded-md'>
                 {item.name}
               </a>
             ))}
@@ -113,7 +113,7 @@ export default function Home() {
         <div className='py-12 sm:py-32 lg:pb-40'>
           <div className='mx-auto max-w-7xl px-6 lg:px-8'>
             <div className='mx-auto max-w-2xl text-center'>
-              <h1 className=' text-shadows text-red-900 font-extrabold text-4xl sm:text-5xl lg:text-6xl tracking-tight text-center dark:text-white'>
+              <h1 className=' text-shadows text-red-900 font-extrabold text-2xl sm:text-2xl lg:text-6xl tracking-tight text-center dark:text-white'>
                 Welcome to BookBuddyPro
               </h1>
               <p className="mt-4 font-extrabold text-2xl">Discover your next favorite book today!</p>
@@ -147,11 +147,9 @@ export default function Home() {
         </div>
 
         <h2 className="text-xl font-bold sm:text-2xl py-4 flex justify-center items-center">Whats included in the PRO plan</h2>
-        <div className="text-center flex justify-center items-center space-y-6 bg-slate-50 rounded-md m-8 p-8">
-            
-          
+        <div className="text-center flex justify-center items-center space-y-6">
 
-            <div className="flex gap-10">
+            <div className="flex flex-col md:flex-row gap-6 py-2 md:max-w-[64rem] md:py-12 lg:py-24">
          
               <div className="relative flex w-full max-w-[20rem] flex-col rounded-xl bg-gradient-to-tr from-pink-600 to-pink-400 bg-clip-border p-8 text-white shadow-md shadow-pink-500/40">
                 <div className="relative m-0 mb-8 overflow-hidden rounded-none border-b border-white/10 bg-transparent bg-clip-border pb-8 text-center text-gray-700 shadow-none">
